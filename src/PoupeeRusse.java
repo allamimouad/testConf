@@ -21,12 +21,9 @@ public class PoupeeRusse {
 
     public void ouvrir() {
         if (first == null) {
-            if (!isOpen) {
+            
                 isOpen = true;
                 System.out.println("poupee russe is open");
-            } else {
-                System.out.println("we cant open this poupee russe cuz is already open.!!");
-            }
         } else {
             System.out.println("you cant open this poupee russe.!!");
         }
@@ -41,7 +38,7 @@ public class PoupeeRusse {
                 System.out.println("we cant open this poupee russe cuz is already close.!!");
             }
         } else {
-            System.out.println("you cant close this poupee cue is already inside a poupee.!!");
+            System.out.println("you cant close this poupee ezezecue is already inside a poupee.!!");
         }
     }
 
